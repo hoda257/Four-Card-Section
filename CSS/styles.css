@@ -41,7 +41,7 @@ header {
     min-width: 300px;
     max-width: 500px;
     text-align: center;
-    margin: 25px;
+    margin: 30px;
 }
 
 header h1 {
@@ -81,15 +81,19 @@ header p {
 
 .card {
     background-color: white;
-    padding: 2.5rem;
+    padding: 2rem;
     min-width: 250px;
     border-radius: 10px;
     box-shadow: 0 8px 10px hsl(215, 65%, 92%);
     position: relative;
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 20px;
 }
 
 .card p {
